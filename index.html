@@ -5,7 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer">
 <script src="js/cookie.notice.js"></script>
 <style>
     body, h1, h2, h3, h4, h5, h6 {
@@ -31,6 +32,11 @@
     @media only screen and (max-width: 600px) {
         #main {
             margin-left: 0
+        }
+    }
+    @media only screen and (min-width: 749px) {
+        .text_offers {
+            margin-left: 6rem;
         }
     }
 </style>
@@ -85,14 +91,23 @@
         <hr style="width:200px" class="w3-opacity">
         <p style="color:#ffffff;">Hallo! Ich bin Berkan Ceyhan und komme aus dem Rhein Kreis Neuss. Neben meinem Informatik Studium
             beschäftige ich mich jetzt schon seit drei Jahren intensiv mit dem Thema Ecommerce. Von der Produktfotografie,
-            bis hin zum Schalten von Werbeanzeigen auf Plattformen wie Google oder Facebook. Ich habe alles schon gesehen
-            und gemacht. Die Erfahrungen die ich gesammelt habe, sind für meine Kunden wertvoll.
+            bis hin zum Schalten von Werbeanzeigen auf Plattformen wie Google oder Facebook.
+            Die Erfahrungen die ich gesammelt habe, sind für meine Kunden wertvoll.
             Ich biete das fundamentale was jedes Online Geschäft braucht: </p>
-        <ul style="color:#ffffff;">
-            <li>Präzise Produkt-Bilder mit ausdrucksstarken Texten,</li>
-            <li>Websitenoptimierung im Hinblick auf Schnelligkeit,</li>
-            <li>Konvertierende Werbevideos für deine Kampagnen.</li>
-        </ul>
+        <div class="text_offers" style ="color: #FFFFFF">
+            <div>
+                <i style ="display:inline-block;" class="fas fa-camera fa-2x"></i>
+                <p style ="display:inline-block;">Präzise Produkt-Bilder mit ausdrucksstarken Texten,<br></p>
+            </div>
+            <div>
+                <i style="display:inline-block;" class="fas fa-laptop fa-2x"></i>
+                <p style ="display:inline-block;">Webdesign für Ecommerce [Shopify und Woocommerce],<br></p>
+            </div>
+            <div>
+                <i style ="display:inline-block;" class="fas fa-dollar-sign fa-2x"></i>
+                <p style ="display:inline-block;">Konvertierende Werbevideos für deine Kampagnen.</p>
+            </div>
+            </div>
         <p style="color:#ffffff;">Aber genug von meiner Erzählung, unten findest du bisherige Projekte und Erfahrungen von Partnern.
         </p>
 
@@ -181,10 +196,10 @@
             <a href="https://www.instagram.com/finanzenverstehen/" style="text-decoration: none" class="w3-hover-text-yellow"  target="_blank">@Finanzenverstehen</a>, Co Founder
             <a href="https://www.instagram.com/sedumdach/" style="text-decoration: none" class="w3-hover-text-green"  target="_blank">@sedumdach</a>,
             <a href="https://www.instagram.com/businessschule/" style="text-decoration: none" class="w3-hover-text-green"  target="_blank">@businessschule</a>
-        <p>"_______________________________________________"</p><br>
+        <p>"Erstklassige Beratung zum Thema Ecommerce und Reichweitenaufbau. Die Produktbilder sind ebenfalls Top! <br>Nur zu empfehlen!"</p><br>
 
         <img src="images/joseph.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px;height: 80px">
-        <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
+        <p><span class="w3-large w3-margin-right">.</span> CEO at Company.</p>
         <p>"_______________________________________________"</p>
         <!-- End About Section -->
     </div>
@@ -243,8 +258,10 @@
 
     <!-- Footer -->
     <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-        <a class="fa fa-instagram w3-hover-opacity" href="https://instagram.com" style="text-decoration: none">Instagram</a>
-        <a class="fa fa-github w3-hover-opacity" href="https://github.com/BerkanCeyhan" style="text-decoration: none">Github</a>
+        <a class="fab fa-instagram w3-hover-opacity" href="https://instagram.com" style="text-decoration: none;display:inline-block">
+            <h3 style="display:inline-block">Instagram</h3></a>
+        <a  class="fab fa-github w3-hover-opacity" href="https://github.com/BerkanCeyhan" style="text-decoration:none;display:inline-block">
+            <h3 style="display:inline-block">GitHub</h3></a>
         <p class="w3-medium">Powered by <a target="_blank" class="w3-hover-text-green">Berkan Ceyhan
             <a href="impressum.html" style="text-decoration: none" target="_blank">[Impressum]</a></a></p>
         <!-- End footer -->
